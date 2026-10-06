@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<!-- 
+TH: Table Header
+TR: Table Row
+TD: Table Data
+-->
+<body>
+    <table>
+        <!-- 1. sütun -->
+        <tr  bgcolor="blue"> 
+                <td>
+                    1.1
+                </td>
+                <td>
+                    1.2
+                </td>
+        </tr>
+        <!-- 2.sütun -->
+        <tr bgcolor="yellow"> 
+            <td>
+                    2.1
+            </td>
+
+            <td>
+                    2.2
+            </td>
+        </tr>
+    </table>
+
+    <!-- cellspacing: hücre aralığı -->
+    <table border= 2 bordercolor= red bgcolor= pink cellspacing= 0>
+    <!-- collspan birden fazla sütunu birleştirmek için kullanılır rowspan satırları -->
+    <th bgcolor= "orange" colspan="2">BURASI TABLONUN BAŞLIĞIDIR</th>
+        <tr>
+            <!-- th yerine td yapıp yazıyı kalın şekilde yazabilirdik -->
+            <th>
+                1. sütun
+            </th>
+            <th>
+                2. sütun
+            </th>
+        </tr>
+        <!-- 1. sütun -->
+        <tr>
+                <td>
+                    1.1
+                </td>
+                <td>
+                    1.2
+                </td>
+        </tr>
+        <!-- 2.sütun -->
+        <tr>
+            <td>
+                    2.1
+            </td>
+
+            <td>
+                    2.2
+            </td>
+        </tr>
+    <caption align="bottom">Alt Yazı: Volkan Suluoğlu</caption>
+    </table>
+
+    <table border= 2 background="doom.jpg" bgcolor= pink width="714" height="410" cellspacing= 0>
+    <!-- collspan birden fazla sütunu birleştirmek için kullanılır -->
+    <th bgcolor= "green" colspan="2">BURASI TABLONUN BAŞLIĞIDIR</th>
+        <tr>
+            <!-- th yerine td yapıp yazıyı kalın şekilde yazabilirdik -->
+            <th>
+                1. sütun
+            </th>
+            <th>
+                2. sütun
+            </th>
+        </tr>
+        <!-- 1. sütun -->
+        <tr>
+                <td>
+                    1.1
+                </td>
+                <td>
+                    1.2
+                </td>
+        </tr>
+        <!-- 2.sütun -->
+        <tr>
+            <td>
+                    2.1
+            </td>
+
+            <td>
+                    2.2
+            </td>
+        </tr>
+    <caption align="bottom">Alt Yazı: Volkan Suluoğlu</caption>
+    </table>
+    
+
+<table align="center" border="1" cellspacing="0" width="404" height="404">
+    <tr>
+        <td rowspan="2">V</td>
+        <td>O</td>
+        <td>L</td>
+    </tr>
+    <tr>
+        <td>K</td>
+        <td>A</td>
+        <td>N</td>
+    </tr>
+    <tr>
+        <td colspan="2">A</td>
+        <td>B</td>
+        <td>C</td>
+    </tr>
+</table>
+</body>
+</html>
