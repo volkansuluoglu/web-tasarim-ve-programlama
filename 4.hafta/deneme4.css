@@ -1,0 +1,81 @@
+div{
+    font-size: 30px;
+    font-style: italic;
+}
+/* ID KULLANIMI */
+#deneme{
+    color:green;
+}
+#deneme2{
+    color: purple;
+}
+/* CLASS KULLANIMI */
+/* div.sablon yerine .sablon yazsakta oluyor. */
+div.sablon{ 
+    text-align: center;
+}
+body{
+    background: yellow;
+}
+p{
+    text-align: justify;
+}
+.baslik{
+    color:darkblue
+}
+h1{
+    /* Altına Çizgi Çekiyor */
+    text-decoration: underline;
+}
+h2{
+    /* Üstünü Çiziyor */
+    text-decoration: line-through;
+}
+h3{
+    /* Üstüne Çizgi Çekiyor */
+    text-decoration: overline;
+}
+h1:hover{
+    color:brown;
+}
+h2:hover{
+    color:green;
+}
+h3:hover{
+    color:purple;
+}
+img{
+    /* bulunduğu bloğun %20sinde boyutlanır */
+    width: 20%;
+    /* heighti otomatik ayarlar */
+    height: auto;
+    /* resmin boyutu kadar verince daire şeklinde oluyor */
+    border-radius: 300px;
+    /* Çerçeve Ekler */
+    border-style: solid;
+}
+img:hover{
+    border-color:white;
+}
+#paragraf1{
+    /* Hepsini Büyük Harf Yapıyor */
+    text-transform: uppercase;
+}
+#paragraf2{
+    /* Hepsini Küçük Harf Yapıyor */
+    text-transform: lowercase;
+}
+#paragraf3{
+    /* İlk Harfi Büyük Harfi Yapıyor */
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+}
+a:hover{
+    color:blue;
+}
+a:active{
+    color:red;
+}
